@@ -1,0 +1,19 @@
+ #include<iostream>
+ using namespace std;
+ int main()
+ {
+cout<<"請分別輸入你的體重(KG)和身高(M)"<<endl;
+float a,b;
+cin>>a>>b;
+float BMI=a/(b*b);
+if(BMI>=23.9)
+{
+cout<<"你的BMI為"<<BMI<<"你過重囉，要減肥囉"; 
+}
+if(BMI<=18.5)
+{
+cout<<"你的BMI為"<<BMI<<"你太瘦囉，要吃多一點喔";
+}
+if(BMI<=23.9&&BMI>=18.5)
+cout<<"你的BMI為"<<BMI<<"你的體重很正常，讚喔"; 
+ }
